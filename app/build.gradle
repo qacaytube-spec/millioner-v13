@@ -1,0 +1,27 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.qacaytube.milyoner'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.qacaytube.milyoner'
+        minSdk 23
+        targetSdk 35
+        versionCode 8
+        versionName '1.0.7'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            debuggable true
+        }
+    }
+}

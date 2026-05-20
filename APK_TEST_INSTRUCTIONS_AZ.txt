@@ -1,0 +1,24 @@
+MİLYONER ANDROID TEST LAYİHƏSİ
+
+Bu paket APK kimi test etmək üçün hazırlanmış Android Studio layihəsidir.
+
+NECƏ APK YARATMAQ OLAR:
+1. Android Studio-nu aç.
+2. File > Open seç.
+3. Bu qovluğu seç: MilyonerAndroid
+4. Layihə açıldıqdan sonra Gradle sync-in bitməsini gözlə.
+5. Menyudan Build > Build Bundle(s) / APK(s) > Build APK(s) seç.
+6. APK hazır olanda Android Studio sağ aşağıda "locate" göstərəcək.
+7. APK faylını telefona göndər və install et.
+
+TELEFONDA QURAŞDIRMA:
+- APK-ni telefonda aç.
+- "Install unknown apps" icazəsi istəyə bilər.
+- Chrome / Files / Telegram üçün icazə ver.
+- Install et və test et.
+
+VACİB:
+- Bu debug/test APK üçündür.
+- Google Play üçün release AAB ayrıca imzalanmalıdır.
+- Paket adı: com.qacaytube.milyoner
+- App adı: Milyoner

@@ -1,0 +1,24 @@
+GITHUB ACTIONS İLƏ APK YARATMAQ
+
+Bu zip GitHub üçün düzəldilib. Zip-in içində app/, build.gradle və settings.gradle birbaşa root səviyyəsindədir.
+
+NECƏ YÜKLƏMƏK LAZIMDIR:
+1. Bu zip faylı kompüterdə extract et.
+2. Extract etdiyin qovluğun İÇİNDƏKİ faylları GitHub repo-nun əsas səhifəsinə upload et.
+   Vacib: qovluğun özünü yox, içindəkiləri upload et.
+3. GitHub repo-da bu struktur görünməlidir:
+   .github/
+   app/
+   build.gradle
+   settings.gradle
+   gradle.properties
+4. Actions bölməsinə keç.
+5. Build Android APK workflow-unu aç.
+6. Run workflow bas.
+7. Build bitəndən sonra Artifacts hissəsindən Milyoner-debug-apk yüklə.
+8. Zip-i aç və app-debug.apk faylını telefona quraşdır.
+
+ƏGƏR ERROR VERƏRSƏ:
+- Əvvəlcə repo-da app qovluğunun olduğuna bax.
+- app qovluğu root-da olmalıdır.
+- settings.gradle ilə app qovluğu eyni səviyyədə olmalıdır.
